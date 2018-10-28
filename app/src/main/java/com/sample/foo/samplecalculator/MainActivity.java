@@ -46,13 +46,11 @@ public class MainActivity extends AppCompatActivity {
                 binding.editText.setText(binding.editText.getText() + "0");
             }
         });
-
-        binding.buttonOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        
+       public void one (View view) {//one was the method name that i gave to onClick
                 binding.editText.setText(binding.editText.getText() + "1");
             }
-        });
+        
 
         binding.buttonTwo.setOnClickListener(new View.OnClickListener() {
             @Override
